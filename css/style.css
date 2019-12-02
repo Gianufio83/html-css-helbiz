@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .container_1000 {
@@ -70,6 +70,7 @@ header {
   background-image: url(../img/hero-bg.jpg);
   background-size: cover;
   background-position: center;
+  margin-bottom: 60px;
 }
 .jumbo_text {
   position: absolute;
@@ -136,4 +137,35 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
+}
+.first_section {
+  text-align: center;
+  background-color: #FAFAFA;
+  margin-bottom: 10px;
+}
+
+.helbiz_mono {
+  width: 50%;
+}
+.helbizgo_name {
+  width: 30%;
+  margin-bottom: 10px;
+}
+.e_scooter {
+  font-size: 20px;
+}
+.primo-blocco {
+  height: 100px;
+  padding: 10px;
+}
+.link_1 {
+  font-size: 20px;
+  position: relative;
+}
+.primo-blocco a::after {
+  content:"         >";
+  width: 50px;
+  position: absolute;
+  top: 0;
+  right: -40px;
 }
