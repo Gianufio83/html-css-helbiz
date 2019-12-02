@@ -141,9 +141,8 @@ header {
 .first_section {
   text-align: center;
   background-color: #FAFAFA;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
-
 .helbiz_mono {
   width: 50%;
 }
@@ -169,3 +168,29 @@ header {
   top: 0;
   right: -40px;
 }
+.sfondo {
+  background-image: url(../img/HelbizBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right;
+  margin-bottom: 30px;
+}
+.container_2 {
+  padding:250px;
+}
+.container_2 p {
+  padding-bottom:1000px;
+}
+.iphone {
+  width: 200%;
+}
+.col-lg-4 p {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+/* .background {
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
